@@ -21,7 +21,11 @@ func CreateFlags(input string) (string, map[string]string, error) {
 			}
 		}
 	}
+<<<<<<< HEAD
 	//fmt.Println(output) //uncomment to help in debugging
+=======
+	fmt.Println(output)
+>>>>>>> f6c1b1bd5f26b89a250310581035e34d351e730b
 	return temp[0], output, err
 }
 
